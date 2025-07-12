@@ -480,3 +480,16 @@ nav .wrapper {
     letter-spacing: 0.3px;
     margin: 0;
 }
+
+/* ----Comapnies Section---- */
+#companies {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#companies .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    column-gap: 33px;
+}
