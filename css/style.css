@@ -493,3 +493,77 @@ nav .wrapper {
     justify-content: center;
     column-gap: 33px;
 }
+
+/* ----Footer Section---- */
+footer {
+    background: url("../images/about_me_img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 40px 0;
+}
+
+footer .section-name {
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .title {
+    max-width: 421px;
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+footer button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 30px;
+    background: #8671FC;
+    padding: 21px 49px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+footer .btn-container {
+    text-align: center;
+}
+
+footer hr {
+    border: 1px solid #fff;
+    opacity: 0.2;
+    margin-top: 50px;
+}
+
+footer .logo {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+footer .copyright {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
