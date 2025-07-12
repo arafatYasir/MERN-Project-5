@@ -127,3 +127,90 @@ nav .wrapper {
     gap: 25px;
     align-items: center;
 }
+
+/* ----About Section---- */
+#about {
+    background: url("../images/about_me_img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 150px 0;
+}
+
+#about .wrapper {
+    display: grid;
+    grid-template-columns: 560px 360px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+}
+
+#about .section-name {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#about .title-1 {
+    max-width: 560px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+#about .description-1 {
+    max-width: 501px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
+
+#about .btn a {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#about .title-2 {
+    max-width: 360px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+#about .description-2 {
+    max-width: 421px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#about a {
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
