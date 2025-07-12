@@ -360,3 +360,123 @@ nav .wrapper {
     height: 334px;
     background: #CECECE;
 }
+
+/* ----Testimonials Section---- */
+#testimonials {
+    margin-top: 150px;
+}
+
+#testimonials .wrapper {
+    display: grid;
+    grid-template-columns: 311px 715px;
+    column-gap: 150px;
+}
+
+#testimonials .section-name {
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+#testimonials .title {
+    max-width: 270px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#testimonials .description {
+    max-width: 311px;
+    color: #838383;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+#testimonials .angles {
+    display: grid;
+    grid-template-columns: repeat(2, 70px);
+    column-gap: 30px;
+    margin-top: 100px;
+}
+
+#testimonials .angles div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+#testimonials .angles div:hover {
+    background: #8671FC;
+}
+
+#testimonials .angles div:hover i {
+    color: #fff;
+}
+
+#testimonials .part-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    column-gap: 155px;
+}
+
+#testimonials .part-2 .image {
+    width: 184px;
+    height: 184px;
+    position: relative;
+}
+
+#testimonials .part-2 .image img {
+    width: 100%;
+}
+
+#testimonials .part-2 .image i {
+    position: absolute;
+    bottom: -7px;
+    left: 25px;
+    font-size: 35px;
+    color: #F05D7B;
+}
+
+#testimonials .part-2 p {
+    max-width: 280px;
+    color: #838383;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 22px;
+    margin-bottom: 56px;
+}
+
+#testimonials .part-2 h4 {
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+#testimonials .part-2 .role {
+    color: #838383;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
