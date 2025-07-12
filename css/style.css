@@ -302,3 +302,61 @@ nav .wrapper {
 #skills .skill:hover .btn a {
     color: #fff;
 }
+
+/* ----Portfolio Section---- */
+#portfolio {
+    margin-top: 149px;
+}
+
+#portfolio .section-name {
+    color: #222;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#portfolio .title {
+    color: #222;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 40px;
+}
+
+#portfolio .options {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#portfolio .options li {
+    color: #838383;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#portfolio .options li:hover {
+    color: #8671FC;
+}
+
+#portfolio .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+    margin-top: 70px;
+}
+
+#portfolio .card {
+    width: 370px;
+    height: 334px;
+    background: #CECECE;
+}
